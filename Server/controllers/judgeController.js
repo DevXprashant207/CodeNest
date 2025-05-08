@@ -4,7 +4,7 @@ exports.runCode = async (req, res) => {
   const { source_code, language_id } = req.body;
   try {
     const { data } = await axios.post(
-      'https://judge0-ce.p.rapidapi.com/submissions?base64_encoded=false&wait=true',
+      'https://judge0sdfwejkw-ce.p.rapidapi.com/submissions?base64_encoded=false&wait=true',
       { source_code, language_id },
       {
         headers: {
